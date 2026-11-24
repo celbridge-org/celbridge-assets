@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/celbridge-org/celbridge-assets/schema/asset.schema.json",
+  "title": "Celbridge asset entry",
+  "description": "One asset listed in the Celbridge asset catalogue. Each asset is distributed under its own licence, stated at its url.",
+  "type": "object",
+  "required": ["url", "thumbnail", "screenshot"],
+  "properties": {
+    "url": {
+      "description": "URL of the asset's source repository, where its full licence text can be found.",
+      "type": "string",
+      "format": "uri"
+    },
+    "thumbnail": {
+      "description": "Filename of the thumbnail image, in the same folder as this asset.json.",
+      "type": "string",
+      "pattern": "^[^/\\\\]+\\.(webp|png|jpg|jpeg)$"
+    },
+    "screenshot": {
+      "description": "Filename of the screenshot image, in the same folder as this asset.json.",
+      "type": "string",
+      "pattern": "^[^/\\\\]+\\.(webp|png|jpg|jpeg)$"
+    }
+  }
+}
