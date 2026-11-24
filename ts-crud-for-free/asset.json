@@ -1,6 +1,6 @@
 {
   "name": "TypeScript ORM library",
-  "summary": "A TypeScript (Deno) ORM library, based on pdo-crud-for-free-repositories, that gives plain entity classes a database table and CRUD methods for free through reflection. Object references between entities are stored and loaded automatically, so you work with real objects rather than foreign key ids. The project includes example entities, a repository with custom methods, fixtures, a demo and tests using an in-memory database. It uses SQLite by default and supports custom SQL, migrations and other databases.",
+  "description": "A TypeScript (Deno) ORM library, based on pdo-crud-for-free-repositories, that gives plain entity classes a database table and CRUD methods for free through reflection. Object references between entities are stored and loaded automatically, so you work with real objects rather than foreign key ids. The project includes example entities, a repository with custom methods, fixtures, a demo and tests using an in-memory database. It uses SQLite by default and supports custom SQL, migrations and other databases.",
   "category": "library",
   "tags": ["sample", "database", "typescript"],
   "min_version": "1.9",

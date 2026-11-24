@@ -4,7 +4,7 @@
   "title": "Celbridge asset entry",
   "description": "One asset listed in the Celbridge asset catalogue. Each asset is distributed under its own licence, stated at its url.",
   "type": "object",
-  "required": ["name", "summary", "category", "tags", "min_version", "url", "thumbnail", "screenshot", "updated"],
+  "required": ["name", "description", "category", "tags", "min_version", "url", "thumbnail", "screenshot", "updated"],
   "additionalProperties": false,
   "properties": {
     "name": {
@@ -12,7 +12,7 @@
       "type": "string",
       "minLength": 1
     },
-    "summary": {
+    "description": {
       "description": "Short plain-text description of the asset, typically 3-4 sentences.",
       "type": "string",
       "minLength": 1,
