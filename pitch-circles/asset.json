@@ -1,0 +1,11 @@
+{
+  "name": "Pitch Circles",
+  "description": "Pitch Circles is an educational tool that draws Lerdahl's tonal pitch space as five concentric rings: chromatic, diatonic, triadic, fifth and root. It's an object-oriented TypeScript rewrite of an older Java/Swing app, built with Deno, and it uses only the HTML canvas and Web Audio, with no other libraries. You choose a key (major, minor or harmonic minor) and a chord, step the chord through the rings, and play it back on a three-octave piano that lights up the scale and chord notes, with a metronome you can set from 40 to 200 BPM. The code is split into model, view, UI and audio folders with unit tests, and you can run it in the Celbridge editor, through Deno on its own, or by opening the built dist/index.html directly.",
+  "category": "example",
+  "tags": ["web page", "music", "interactive", "TypeScript project"],
+  "min_version": "1.8",
+  "url": "https://github.com/dr-matt-smith/pitch_circles",
+  "thumbnail": "thumbnail.webp",
+  "screenshot": "screenshot.webp",
+  "updated": "2026-11-10"
+}
