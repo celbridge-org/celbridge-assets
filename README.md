@@ -20,6 +20,7 @@ Each asset has its own folder containing an `asset.json` file and its two images
 | Field | Type | Description |
 |---|---|---|
 | `name` | string | Display name of the asset. Must not be empty. |
+| `summary` | string | Short plain-text description of the asset, typically 3-4 sentences (max 1000 characters). |
 | `category` | string | One of: `template`, `example`, `starter`, `document-editor`, `utility`, `library`. |
 | `tags` | array of strings | Keywords for searching and filtering. No duplicates. May be an empty list `[]`. |
 | `min_version` | string | Minimum Celbridge version the asset requires, e.g. `1.8` or `1.9.2`. |
@@ -33,6 +34,7 @@ Example:
 ```json
 {
   "name": "Story tool for presentations",
+  "summary": "Story Builder is a Celbridge package that adds an editor for .story files, used to build slide decks and choose-your-own-adventure stories from Markdown passages. ...",
   "category": "document-editor",
   "tags": ["interactive", "presentation"],
   "min_version": "1.8",

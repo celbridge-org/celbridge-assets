@@ -1,10 +1,11 @@
 {
   "name": "Story tool for presentations",
+  "summary": "Story Builder is a Celbridge package that adds an editor for .story files, used to build slide decks and choose-your-own-adventure stories from Markdown passages. Each passage is a Marp slide that can hold headings, code, maths, images, and diagrams written as text with Mermaid or nomnoml. Passages can be laid out as a graph or a list, previewed as you type, and presented full screen with keyboard controls. Decks export to PDF with selectable, searchable text and clickable choice links.",
   "category": "document-editor",
   "tags": ["interactive", "presentation"],
   "min_version": "1.8",
   "url": "https://github.com/dr-matt-smith/celbridge-package-story-tool",
   "thumbnail": "thumbnail.webp",
   "screenshot": "screenshot.webp",
-  "updated": "2026-10-01"
+  "updated": "2026-11-24"
 }
