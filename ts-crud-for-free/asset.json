@@ -1,5 +1,11 @@
 {
+  "name": "TypeScript ORM library",
+  "category": "library",
+  "tags": ["sample", "database", "typescript"],
+  "min_version": "1.9",
   "url": "https://github.com/dr-matt-smith/ts-crud-for-free",
   "thumbnail": "thumbnail.webp",
-  "screenshot": "screenshot.webp"
+  "screenshot": "screenshot.webp",
+  "updated": "2026-11-24"
 }
+

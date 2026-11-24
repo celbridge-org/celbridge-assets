@@ -1,5 +1,10 @@
 {
+  "name": "Story tool for presentations",
+  "category": "document-editor",
+  "tags": ["interactive", "presentation"],
+  "min_version": "1.8",
   "url": "https://github.com/dr-matt-smith/celbridge-package-story-tool",
   "thumbnail": "thumbnail.webp",
-  "screenshot": "screenshot.webp"
+  "screenshot": "screenshot.webp",
+  "updated": "2026-10-01"
 }
